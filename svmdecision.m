@@ -13,6 +13,6 @@ end
 
 f=-((feval(kf,sv,samples,kfarg{:})'*alpha(:))+b);
 s=sign(f);
-s(s==0)=-1;
+
 end
 
